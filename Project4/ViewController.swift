@@ -17,7 +17,9 @@ class ViewController: UIViewController, WKNavigationDelegate {
     var progressView: UIProgressView!
 //    var websites = ["miacademy.co", "apparentsoft.com", "always-icecream.com", "clever-dragons.com"]
     
-    var websites = ["apparentsoft.com", "apple.com", "hackingwithswift.com", "seanallen.co"]
+//    var websites = ["apparentsoft.com", "apple.com", "hackingwithswift.com", "seanallen.co"]
+    
+        var websites = ["apparentsoft.com", "miacademy.co", "clever-dragons.com", "always-icecream.com"]
     
     override func loadView() {
         webView = WKWebView()
